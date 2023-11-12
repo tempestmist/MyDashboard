@@ -1,0 +1,47 @@
+body {
+  background-color: #343434;
+  margin: 0px;
+  padding: 0px;
+}
+
+p,ul,h1,.title {
+  color: #f6f7f9;
+}
+
+#navbar {
+    display: flex;
+    background-color: #444444;
+    padding: 0px;
+    align-items: center;
+    
+}
+
+.title {
+  font-size: 30px;
+  margin-left: 10px;
+  height: 40px;
+}
+
+.logo {
+  order: -1;
+  margin-left: 10px;
+}
+
+.icon {
+  /*placeholder*/
+}
+
+.icon-plus {
+  font-size: 60px;
+  color: #696969;
+}
+
+.button {
+  outline: none;
+  border: none;
+  
+}
+
+.button-plus {
+  background-color: #00000000;
+}

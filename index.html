@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My Dashboard</title>
     <meta charset="UTF-8" />
-    <script src="usefull stuffs\javascript\projects\web-projects\my-dashboard\scripts\main.js"></script>
-    <link
-      rel="stylesheet"
-      href="usefull stuffs\javascript\projects\web-projects\my-dashboard\styles\style.css"
-    />
+    <title>My Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="icon" type="image/png" href="images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
   </head>
   <body>
+    <div id="navbar">
+      <div class="title">My Dashboard</div>
+      <div class="logo"><img src="images\favicon\favicon.ico" /></div>
+    </div>
+    <button class="button-plus button" onclick="showAlert()">
+      <ion-icon class="icon-plus icon" name="add-outline"></ion-icon>
+    </button>
     <p>
       This site is meant to be a dashboard that allows the user to check
       specified sites in a compact view. An example of elements that will be
@@ -27,5 +35,14 @@
       <li>gmail</li>
       <li>youtube sub page</li>
     </ul>
+    <script src="scripts/main.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
